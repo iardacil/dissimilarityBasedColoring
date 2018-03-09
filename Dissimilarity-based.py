@@ -71,6 +71,11 @@ def traverse_tree(the_list):
             m2=(min2+max2)/2
             #add difference of dissimilarity between midpoints of both subtree
             diff=m1+dis-m2
+            
+            #ALTERINTIVE FOR MORE SEPARATION BETWEEN CLUSTERS
+            #max1=get_max(r[0])
+            #diff=max1+dis
+            
             #prepare results            
             r2=[]
             r2.append(r[0])

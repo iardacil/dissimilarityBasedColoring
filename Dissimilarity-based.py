@@ -195,7 +195,7 @@ objects=['Linsead','Perilla','Cotton','Sesame','Camellia','Olive','Beef','Hog']
 #load dissimilarity matrix for objects
 DIS = np.loadtxt("dis.txt", dtype='d', delimiter=',')
 #clustering results for objects
-cluster_str='(((Perilla-Linsead)-((Sesame-Cotton)-(Olive-Camellia)))-(Hog-Beef))'
+cluster_str= '(((Perilla-Linsead)-((Sesame-Cotton)-(Olive-Camellia)))-(Hog-Beef))'
 
 #call main function, find shade values
 dict= {}
